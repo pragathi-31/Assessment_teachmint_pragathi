@@ -93,4 +93,5 @@ public class DashBoardPage {
 	public By getRemarksByType() {
 		return By.xpath("//div[text()='Remarks']/ancestor::div[@class='krayon__Input-module__iHNUs']/descendant::input[@class='krayon__TextInput-module__3VrcP']");
 	}
+	
 }

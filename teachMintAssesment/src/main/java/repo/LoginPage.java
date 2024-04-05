@@ -31,6 +31,12 @@ public class LoginPage {
 		PageFactory.initElements(driver, this);
 	}
 	
+	/**
+	 * @author PRAGATHI
+	 * This method is used to login with number and enter otp and displaying dashboard page
+	 * @param driver
+	 * @throws IOException
+	 */
 	public void Login(WebDriver driver) throws IOException {
 		FileUtils fLib=new FileUtils();
 		WebUtils wLib=new WebUtils();
