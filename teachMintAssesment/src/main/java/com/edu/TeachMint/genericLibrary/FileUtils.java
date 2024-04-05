@@ -1,4 +1,4 @@
-package genericLibrary;
+package com.edu.TeachMint.genericLibrary;
 
 import java.io.FileInputStream;
 import java.io.IOException;

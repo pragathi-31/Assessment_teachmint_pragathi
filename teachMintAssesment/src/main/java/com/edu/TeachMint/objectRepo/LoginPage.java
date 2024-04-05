@@ -1,4 +1,4 @@
-package repo;
+package com.edu.TeachMint.objectRepo;
 
 import java.io.IOException;
 
@@ -9,9 +9,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-
-import genericLibrary.FileUtils;
-import genericLibrary.WebUtils;
+import com.edu.TeachMint.genericLibrary.FileUtils;
+import com.edu.TeachMint.genericLibrary.WebUtils;
 
 
 public class LoginPage {
@@ -53,7 +52,7 @@ public class LoginPage {
 		}
 		}
 		
-		String eData = fLib.readExcel("Sheet1", 1, 0);
+		String eData = fLib.readExcel("otp", 1, 0);
 		for(int i=0;i<=5;i++) {
 			char ch=eData.charAt(i);
 			String s=Character.toString(ch);

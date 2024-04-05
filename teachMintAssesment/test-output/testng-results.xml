@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-05T10:54:01 IST" name="Default suite" finished-at="2024-04-05T10:54:36 IST" duration-ms="35180">
+  <suite started-at="2024-04-05T13:29:52 IST" name="Default suite" finished-at="2024-04-05T13:30:19 IST" duration-ms="26733">
     <groups>
     </groups>
-    <test started-at="2024-04-05T10:54:01 IST" name="Default test" finished-at="2024-04-05T10:54:36 IST" duration-ms="35180">
+    <test started-at="2024-04-05T13:29:52 IST" name="Default test" finished-at="2024-04-05T13:30:19 IST" duration-ms="26733">
       <class name="certificate.GenerateCertificateTest">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:certificate.GenerateCertificateTest@78691363]" started-at="2024-04-05T10:54:01 IST" name="openBrowser" finished-at="2024-04-05T10:54:04 IST" duration-ms="3777" status="PASS">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:certificate.GenerateCertificateTest@5bf0d49]" started-at="2024-04-05T13:29:52 IST" name="openBrowser" finished-at="2024-04-05T13:29:57 IST" duration-ms="5029" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method is-config="true" signature="login()[pri:0, instance:certificate.GenerateCertificateTest@78691363]" started-at="2024-04-05T10:54:04 IST" name="login" finished-at="2024-04-05T10:54:17 IST" duration-ms="12586" status="PASS">
+        <test-method is-config="true" signature="login()[pri:0, instance:certificate.GenerateCertificateTest@5bf0d49]" started-at="2024-04-05T13:29:57 IST" name="login" finished-at="2024-04-05T13:30:00 IST" duration-ms="3395" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="schoolLeavingCertificateTest()[pri:0, instance:certificate.GenerateCertificateTest@78691363]" started-at="2024-04-05T10:54:17 IST" name="schoolLeavingCertificateTest" finished-at="2024-04-05T10:54:36 IST" duration-ms="18490" status="PASS">
+        <test-method signature="schoolLeavingCertificateTest()[pri:0, instance:certificate.GenerateCertificateTest@5bf0d49]" started-at="2024-04-05T13:30:00 IST" name="schoolLeavingCertificateTest" finished-at="2024-04-05T13:30:19 IST" duration-ms="18242" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- schoolLeavingCertificateTest -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:certificate.GenerateCertificateTest@78691363]" started-at="2024-04-05T10:54:36 IST" name="closeBrowser" finished-at="2024-04-05T10:54:36 IST" duration-ms="273" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:certificate.GenerateCertificateTest@5bf0d49]" started-at="2024-04-05T13:30:19 IST" name="closeBrowser" finished-at="2024-04-05T13:30:19 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->

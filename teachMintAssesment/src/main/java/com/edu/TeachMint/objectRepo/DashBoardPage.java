@@ -1,11 +1,14 @@
-package repo;
+package com.edu.TeachMint.objectRepo;
 
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.SearchContext;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+
+import com.edu.TeachMint.genericLibrary.WebUtils;
 
 
 public class DashBoardPage {
@@ -94,4 +97,27 @@ public class DashBoardPage {
 		return By.xpath("//div[text()='Remarks']/ancestor::div[@class='krayon__Input-module__iHNUs']/descendant::input[@class='krayon__TextInput-module__3VrcP']");
 	}
 	
+	public void shadowBtn() {
+		//close the pop up
+				SearchContext root = shadowPopUpEle.getShadowRoot();
+				root.findElement(By.cssSelector("svg[class='close-btn']")).click();
+	}
+	public void updateRemarks(WebUtils wLib,WebDriver driver,String Remarks){{
+		wLib.scrollElement(driver, remarks);
+		wLib.explicitWait(driver, 10, getRemarksByType());
+	
+		remarks.sendKeys(Remarks);
+		
+		//click on generate
+		int k=0;
+		while(k<50) {
+			try {
+				getGenerate_Btn().click();
+				break;
+			} catch (Exception e) {
+				k++;
+			}
+		}
+	}
+}
 }
